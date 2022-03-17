@@ -9,7 +9,7 @@ public class Person {
     }
 
     public Person(String name, Integer age) {
-        System.out.println("被创建");
+        /*System.out.println("被创建");*/
         this.name = name;
         this.age = age;
     }
