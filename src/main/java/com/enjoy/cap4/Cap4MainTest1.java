@@ -7,6 +7,7 @@ public class Cap4MainTest1 {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext app = new AnnotationConfigApplicationContext(Cap4MainConfig.class);
         System.out.println("IOC容器完成");
+        System.out.println();
         Object p = app.getBean("person");
     }
 }
